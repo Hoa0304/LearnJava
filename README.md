@@ -21,7 +21,8 @@ Boolean thường được cho những câu điều kiện rẽ nhánh.
 Boolean isDone = false
 ```
 
-2. Kiểu byte
+2. Kiểu byte :
+
 Kiểu dữ liệu __Byte__ dùng để lưu trữ kiểu số nguyên có kích cỡ bằng 1 byte (8
 bit). Giá trị có thể lưu được nằm trong khoảng từ -128 ( -2^7) đến 127 (2^7-
 1).
@@ -29,7 +30,8 @@ bit). Giá trị có thể lưu được nằm trong khoảng từ -128 ( -2^7) 
 byte a = 100
 ```
 
-3. Kiểu Short
+3. Kiểu Short :
+
 Kiểu dữ liệu __Short__ dùng để lưu trữ kiểu số nguyên có kích cỡ bằng 2 byte (16
 bit). Giá trị có thể lưu được nằm trong khoảng từ -32,768 (-2^15) đến 32,767
 (2^15-1).
@@ -38,17 +40,20 @@ bit). Giá trị có thể lưu được nằm trong khoảng từ -32,768 (-2^1
 short a = 10000
 ```
 
-4. Kiểu Int
+4. Kiểu Int :
+
 Kiểu dữ liệu __Int__ dùng để lưu trữ kiểu số nguyên có kích cỡ bằng 4 byte (32
 bit). Giá trị có thể lưu được nằm trong khoảng từ -2,147,483,648 (-2^31) đến
 2,147,483,647 (2^31-1)
-5. Kiểu Long
+5. Kiểu Long : 
+
 Kiểu dữ liệu __Long__ dùng để lưu trữ kiểu số nguyên có kích cỡ bằng 8 byte. Giá
 trị có thể lưu lưu được nằm trong khoảng từ -9,223,372,036,854,775,808 (-
 2^63) đến 9,223,372,036,854,775,807 (2^63-1). Giá trị gán cần có kí tự ‘l’
 phía sau.
 
-6. Kiểu Float
+6. Kiểu Float :
+
 Kiểu dữ liệu __Float__ dùng để lưu trữ số thực có kích cỡ bằng 4 byte (32 bit). Giá
 trị có thể lưu được nằm trong khoảng từ -3.4028235 x 10^38 đến -
 3.4028235 x 10^38. Giá trị gán cần có kí tự ‘_f_’ phía sau.
@@ -57,7 +62,8 @@ trị có thể lưu được nằm trong khoảng từ -3.4028235 x 10^38 đế
 float a = 2.51f
 ```
 
-7. Kiểu Double
+7. Kiểu Double :
+
 Kiểu dữ liệu __Double__ dùng để lưu trữ số thực có kích cỡ bằng 8 byte (64 bit).
 Giá trị có thể lưu nằm trong khoảng từ -1.7976931348623157 x 10^308 đến
 -1.7976931348623157 x 10^308. Giá trị gán có thể có hoặc không kí tự ‘d’
@@ -66,7 +72,8 @@ phía sau.
 double a = 2.52.d or double a = 2.52
 ```
 
-8. Kiểu Char
+8. Kiểu Char : 
+
 Kiểu dữ liệu __Char__ dùng để lưu trữ kí tự có kích cỡ bằng 2 byte. Bản chất Char
 lưu trữ code Unicode nhưng khi lại hiển thị ra ‘kí tự’ ứng với mã đó. Giá trị có
 thể lưu trữ nằm trong khoảng ‘u0000’ đến ‘uffff’.
