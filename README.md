@@ -132,6 +132,8 @@ Trong đó :
 - params : chứa kiểu dữ liệu và tên của tham số 
 </details>
 
+<br></br>
+
 ### Tổng kết
 ```java
 import java.util.Scanner;
