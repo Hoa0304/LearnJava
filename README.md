@@ -18,7 +18,7 @@ Kiểu __Boolean__ chỉ sử dụng lưu trữ cho 2 giá trị: true và false
 Boolean thường được cho những câu điều kiện rẽ nhánh.
 
 ```java
-Boolean isDone = false
+boolean isDone = false
 ```
 
 2. Kiểu byte :
