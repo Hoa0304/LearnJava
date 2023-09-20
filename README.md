@@ -88,7 +88,7 @@ String name = "CamHoa"
 <details>
 <summary>Lớp bao (wrapper class)</summary>
 
-> rapper class (lớp bao) là một lớp được cung cấp để đóng gói các kiểu dữ liệu nguyên thủy (primitive data types) thành các đối tượng (objects). Mỗi kiểu dữ liệu nguyên thủy có một wrapper class tương ứng.
+> wrapper class (lớp bao) là một lớp được cung cấp để đóng gói các kiểu dữ liệu nguyên thủy (primitive data types) thành các đối tượng (objects). Mỗi kiểu dữ liệu nguyên thủy có một wrapper class tương ứng.
 
 - Boolean: Đóng gói kiểu dữ liệu boolean.
 - Byte: Đóng gói kiểu dữ liệu byte.
@@ -104,7 +104,8 @@ int number = 10;
 Integer integerNumber = Integer.valueOf(number); // Chuyển đổi kiểu dữ liệu int thành Integer
 
 // Hoặc có thể sử dụng cách viết ngắn gọn hơn
-Integer integerNumber = number; // Autoboxing: tự động chuyển đổi kiểu dữ liệu int thành Integer
+Integer integerNumber = number; 
+// Autoboxing: tự động chuyển đổi kiểu dữ liệu int thành Integer
 ```
 </details>
 </details>
@@ -116,6 +117,19 @@ Integer integerNumber = number; // Autoboxing: tự động chuyển đổi ki�
 <details>
 <summary>Cú pháp</summary>
 
+_Sử dụng method để tái sử dụng lại code_
+
+```java
+access_specifier modifier type name (params){
+    body
+}
+```
+
+Trong đó : 
+- access_specifier : chỉ định truy cập vào phương thức (public , private, protected)
+- modifier : gán thuộc tính cho method (static, abstract,final)
+- type : kiểu dữ liệu trả về (int,double,void : không có kiểu dữ liệu trả về "hàm k có return")
+- params : chứa kiểu dữ liệu và tên của tham số 
 </details>
 
 ### Tổng kết
