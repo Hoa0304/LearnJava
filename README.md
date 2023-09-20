@@ -87,7 +87,9 @@ String name = "CamHoa"
 
 <details>
 <summary>Lớp bao (wrapper class)</summary>
-> wrapper class (lớp bao) là một lớp được cung cấp để đóng gói các kiểu dữ liệu nguyên thủy (primitive data types) thành các đối tượng (objects). Mỗi kiểu dữ liệu nguyên thủy có một wrapper class tương ứng.
+
+> rapper class (lớp bao) là một lớp được cung cấp để đóng gói các kiểu dữ liệu nguyên thủy (primitive data types) thành các đối tượng (objects). Mỗi kiểu dữ liệu nguyên thủy có một wrapper class tương ứng.
+
 - Boolean: Đóng gói kiểu dữ liệu boolean.
 - Byte: Đóng gói kiểu dữ liệu byte.
 - Short: Đóng gói kiểu dữ liệu short.
@@ -107,6 +109,14 @@ Integer integerNumber = number; // Autoboxing: tự động chuyển đổi ki�
 </details>
 </details>
 <br></br>
+
+
+
+### 3. Method (Phương thức)
+<details>
+<summary>Cú pháp</summary>
+
+</details>
 
 ### Tổng kết
 ```java
