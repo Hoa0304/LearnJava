@@ -183,8 +183,9 @@ public class Main {
         switch (c){
             case 1:
                 System.out.println("Mot");
+                break;
             default:
-                c = "Không hợp lệ";
+                System.out.println("Khong hop le!");
                 break;
         }
     }
