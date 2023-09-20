@@ -149,10 +149,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Main m = new Main();
-        m.getinput();
+        getinput();
     }
-    public void getinput(){
+    public static void getinput(){
         int a;
         int b;
         int c;
