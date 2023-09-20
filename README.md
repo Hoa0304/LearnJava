@@ -13,7 +13,8 @@
 <details>
 <summary>Các kiểu dữ liệu nguyên thủy (Primitive Data Types)</summary>
 
-1. Kiểu Boolean
+1. Kiểu Boolean :
+
 Kiểu __Boolean__ chỉ sử dụng lưu trữ cho 2 giá trị: true và false. Mục đích kiểu
 Boolean thường được cho những câu điều kiện rẽ nhánh.
 
